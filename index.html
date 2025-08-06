@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meitei Mayek Transliterator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <div class="header">
+            <h1 class="title">ꯃꯤꯇꯩ ꯃꯌꯦꯛ</h1>
+            <p class="subtitle">Advanced Meitei Mayek Transliterator</p>
+        </div>
+
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="meitei-to-roman">
+                Meitei Mayek → Roman
+            </button>
+            <button class="mode-btn" data-mode="bengali-to-meitei">
+                Bengali → Meitei Mayek
+            </button>
+            <button class="mode-btn" data-mode="bengali-to-roman">
+                Bengali → Meitei → Roman
+            </button>
+        </div>
+
+        <div class="options-panel">
+            <h3 class="options-title">Transliteration Options</h3>
+            <div class="option-group">
+                <div class="option-item">
+                    <div class="checkbox" id="showTones"></div>
+                    <label class="option-label" for="showTones">Show Tone Marks</label>
+                </div>
+                <div class="option-item">
+                    <div class="checkbox checked" id="finalSchwaOff"></div>
+                    <label class="option-label" for="finalSchwaOff">Drop Final Schwa</label>
+                </div>
+                <div class="option-item">
+                    <div class="checkbox checked" id="keepPunct"></div>
+                    <label class="option-label" for="keepPunct">Keep Punctuation</label>
+                </div>
+                <div class="option-item">
+                    <div class="checkbox checked" id="includeExt"></div>
+                    <label class="option-label" for="includeExt">Include Extensions</label>
+                </div>
+            </div>
+            
+            <div class="scheme-selector">
+                <label class="scheme-label">Romanization Scheme:</label>
+                <select class="scheme-select" id="schemeSelect">
+                    <option value="practical">Practical (ASCII)</option>
+                    <option value="academic">Academic (Diacritics)</option>
+                    <option value="iso15919">ISO 15919</option>
+                    <option value="govt">Government (DLPI)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="text-areas">
+            <div class="text-group">
+                <label class="text-label" id="inputLabel">Input Text:</label>
+                <textarea 
+                    class="text-area" 
+                    id="inputText" 
+                    placeholder="Enter text to transliterate..."
+                ></textarea>
+            </div>
+            <div class="text-group">
+                <label class="text-label">Output:</label>
+                <textarea 
+                    class="text-area output-area" 
+                    id="outputText" 
+                    readonly 
+                    placeholder="Transliterated text will appear here..."
+                ></textarea>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="transliterateBtn">
+                Transliterate
+            </button>
+            <button class="btn btn-secondary" id="clearBtn">
+                Clear
+            </button>
+            <button class="btn btn-secondary" id="copyBtn">
+                Copy Output
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
