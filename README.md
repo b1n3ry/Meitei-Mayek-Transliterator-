@@ -63,22 +63,9 @@ open index.html
 python -m http.server 8000
 # Visit http://localhost:8000
 --------------------------------------------------------------------------------------------
-🤝 Contributing
-We welcome contributions of all kinds!
-
--------------------------------------------------------------------------------------------
-🔍 Areas to Contribute
-➕ New romanization schemes
-🔤 Improved Bengali → Meitei mappings
-📚 Documentation updates
----------------------------------------------------------------------------------------------------
-📄 License
-This project is licensed under the MIT License.
 
 🙏 Acknowledgments
 🔤 Unicode Consortium – for Meitei Mayek standardization
-
-🧠 Academic Researchers – in Meitei linguistics
 ---------------------------------------------------------------------------------------------
  Made with ❤️ for the Manipuri community
 
