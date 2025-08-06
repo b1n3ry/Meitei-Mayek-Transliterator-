@@ -1,6 +1,6 @@
 # 🌸 Meitei-Mayek-Transliterator
 
-A sleek, web-based transliteration tool for the Meitei Mayek (ꯃꯤꯇꯩ ꯃꯌꯦꯛ) script, offering **versatile conversion options**. Whether you're preserving heritage or exploring linguistics, this tool is built for **ease, accuracy**, and **beauty**.
+A sleek, web-based transliteration tool for the Meitei Mayek (ꯃꯤꯇꯩ ꯃꯌꯦꯛ) script, offering versatile conversion options. Please note that this translator may not be completely accurate and is intended for users who want to check or explore transliterations. It supports multiple transliteration modes including Meitei Mayek to Roman, Bengali to Meitei Mayek, Bengali to Roman, and various romanization schemes."
 
 ---
 
