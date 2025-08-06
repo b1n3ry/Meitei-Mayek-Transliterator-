@@ -80,6 +80,6 @@ This project is licensed under the MIT License.
 
 🧠 Academic Researchers – in Meitei linguistics
 ---------------------------------------------------------------------------------------------
-<p align="center"> Made with ❤️ for the Meitei community </p> <p align="center"> <strong>ꯃꯤꯇꯩ ꯃꯌꯦꯛ ꯑꯁꯤ ꯍꯤꯡꯍꯅꯒꯗꯕꯅꯤ</strong><br> <em>Meitei Mayek must be preserved</em> </p> ```
+ Made with ❤️ for the Manipuri community
 
 ❤️ Open Source Community – for tools and libraries
