@@ -45,7 +45,7 @@ A sleek, web-based transliteration tool for the Meitei Mayek (ꯃꯤꯇꯩ ꯃ�
 ## 🛠️ Installation & Usage
 
 ### 🔗 Online
-Just open the `index.html` file in any modern web browser or try our [Live Demo](#) (insert link here).
+Just open the `index.html` file in any modern web browser or try our [Live Demo](#)] (https://b1n3ry.github.io/Meitei-Mayek-Transliterator-/)
 
 ### 💻 Local Development
 
